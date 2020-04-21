@@ -615,7 +615,7 @@ scores=out_labels/(max(sum(out_labels),1) ) ;
 
 fprintf('do-labels:');fprintf('%8.0f',out_labels); fprintf('\n');
 fprintf('do-scores:');fprintf('%8.3f',scores); fprintf('\n');
-out_labels_1=out_labels_1 + out_labels;
+% out_labels_1=out_labels_1 + out_labels;
 
 % ******  For Deep learning  ***** DO NOT REMOVE ****
    valuta_trained_NN;     
@@ -623,9 +623,9 @@ out_labels_1=out_labels_1 + out_labels;
     fprintf('NN2-scores:');fprintf('%8.3f',scores); fprintf('\n');
     
 
-out_labels_2=out_labels_2 + out_labels;
-    fprintf('tot_labels1-1:');fprintf('%8.0f',out_labels_1); fprintf('\n');
-    fprintf('tot_labels1-2:');fprintf('%8.0f',out_labels_2); fprintf('\n');
+% out_labels_2=out_labels_2 + out_labels;
+%     fprintf('tot_labels1-1:');fprintf('%8.0f',out_labels_1); fprintf('\n');
+%     fprintf('tot_labels1-2:');fprintf('%8.0f',out_labels_2); fprintf('\n');
 
 %     catch
 %         
